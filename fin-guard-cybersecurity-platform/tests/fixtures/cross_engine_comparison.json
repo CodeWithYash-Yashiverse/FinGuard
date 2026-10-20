@@ -1,0 +1,869 @@
+{
+  "summary": {
+    "total": 45,
+    "exact_matches": 44,
+    "intentional_differences": 1,
+    "unexpected_mismatches": 0,
+    "unexpected_mismatched_ids": [],
+    "intentional_difference_ids": [
+      "edge-emoji-01"
+    ],
+    "mismatch_categories": {
+      "signal": 1
+    }
+  },
+  "comparisons": [
+    {
+      "id": "otp-direct-01",
+      "category": "otp-pin-password",
+      "message_preview": "Dear customer, please send us your OTP to complete verification of your SBI acco...",
+      "python_risk": "high_risk",
+      "ts_risk": "high_risk",
+      "python_signals": [
+        "credential-request",
+        "impersonation"
+      ],
+      "ts_signals": [
+        "credential-request",
+        "impersonation"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "otp-direct-02",
+      "category": "otp-pin-password",
+      "message_preview": "To process your refund, please provide your CVV and card number to our support t...",
+      "python_risk": "high_risk",
+      "ts_risk": "high_risk",
+      "python_signals": [
+        "credential-request"
+      ],
+      "ts_signals": [
+        "credential-request"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "otp-direct-03",
+      "category": "otp-pin-password",
+      "message_preview": "Your net banking access has expired. Share your password immediately to restore ...",
+      "python_risk": "high_risk",
+      "ts_risk": "high_risk",
+      "python_signals": [
+        "credential-request",
+        "urgency"
+      ],
+      "ts_signals": [
+        "credential-request",
+        "urgency"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "otp-direct-04",
+      "category": "otp-pin-password",
+      "message_preview": "A verification code has been sent to your phone. Reply with the verification cod...",
+      "python_risk": "high_risk",
+      "ts_risk": "high_risk",
+      "python_signals": [
+        "credential-request"
+      ],
+      "ts_signals": [
+        "credential-request"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "otp-direct-05",
+      "category": "otp-pin-password",
+      "message_preview": "To fix the issue with your account, tell me your M-PIN so we can verify your ide...",
+      "python_risk": "high_risk",
+      "ts_risk": "high_risk",
+      "python_signals": [
+        "credential-request"
+      ],
+      "ts_signals": [
+        "credential-request"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "qr-payment-01",
+      "category": "qr-payment-scam",
+      "message_preview": "Your PhonePe cashback of Rs 1500 is ready. Enter your UPI PIN on the collect req...",
+      "python_risk": "high_risk",
+      "ts_risk": "high_risk",
+      "python_signals": [
+        "impersonation",
+        "payment-demand",
+        "pin-to-receive"
+      ],
+      "ts_signals": [
+        "impersonation",
+        "payment-demand",
+        "pin-to-receive"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "qr-payment-02",
+      "category": "qr-payment-scam",
+      "message_preview": "To get your refund of Rs 3000, scan the QR code below and approve the payment re...",
+      "python_risk": "high_risk",
+      "ts_risk": "high_risk",
+      "python_signals": [
+        "payment-demand",
+        "pin-to-receive"
+      ],
+      "ts_signals": [
+        "payment-demand",
+        "pin-to-receive"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "qr-payment-03",
+      "category": "qr-payment-scam",
+      "message_preview": "Congratulations! You won Rs 25000. Enter your UPI PIN to claim the prize.",
+      "python_risk": "high_risk",
+      "ts_risk": "high_risk",
+      "python_signals": [
+        "pin-to-receive",
+        "too-good"
+      ],
+      "ts_signals": [
+        "pin-to-receive",
+        "too-good"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "link-suspicious-01",
+      "category": "suspicious-links",
+      "message_preview": "Your PAN card KYC is pending. Update at http://pan-kyc-update.xyz/verify and sha...",
+      "python_risk": "high_risk",
+      "ts_risk": "high_risk",
+      "python_signals": [
+        "account-threat",
+        "credential-request",
+        "link-insecure",
+        "link-tld"
+      ],
+      "ts_signals": [
+        "account-threat",
+        "credential-request",
+        "link-insecure",
+        "link-tld"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "link-suspicious-02",
+      "category": "suspicious-links",
+      "message_preview": "Your parcel delivery fee of Rs 149 is pending. Pay now at https://bit.ly/pay-del...",
+      "python_risk": "suspicious",
+      "ts_risk": "suspicious",
+      "python_signals": [
+        "link-shortener",
+        "payment-demand"
+      ],
+      "ts_signals": [
+        "link-shortener",
+        "payment-demand"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "link-suspicious-03",
+      "category": "suspicious-links",
+      "message_preview": "Your HDFC account has been frozen due to suspicious activity. Verify immediately...",
+      "python_risk": "high_risk",
+      "ts_risk": "high_risk",
+      "python_signals": [
+        "account-threat",
+        "impersonation",
+        "link-insecure",
+        "link-lookalike",
+        "link-tld",
+        "urgency"
+      ],
+      "ts_signals": [
+        "account-threat",
+        "impersonation",
+        "link-insecure",
+        "link-lookalike",
+        "link-tld",
+        "urgency"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "link-suspicious-04",
+      "category": "suspicious-links",
+      "message_preview": "Login to your account at http://45.67.89.123/banking-portal to confirm your tran...",
+      "python_risk": "high_risk",
+      "ts_risk": "high_risk",
+      "python_signals": [
+        "link-insecure",
+        "link-ip"
+      ],
+      "ts_signals": [
+        "link-insecure",
+        "link-ip"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "impersonation-01",
+      "category": "impersonation",
+      "message_preview": "This is Amazon customer care. Your account has been flagged. Click the link to v...",
+      "python_risk": "suspicious",
+      "ts_risk": "suspicious",
+      "python_signals": [
+        "impersonation"
+      ],
+      "ts_signals": [
+        "impersonation"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "impersonation-02",
+      "category": "impersonation",
+      "message_preview": "Dear SBI customer, your account verification is pending. Click the link to updat...",
+      "python_risk": "suspicious",
+      "ts_risk": "suspicious",
+      "python_signals": [
+        "impersonation"
+      ],
+      "ts_signals": [
+        "impersonation"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "impersonation-03",
+      "category": "impersonation",
+      "message_preview": "This is CBI officer speaking. A money laundering case has been registered agains...",
+      "python_risk": "high_risk",
+      "ts_risk": "high_risk",
+      "python_signals": [
+        "impersonation",
+        "legal-threat",
+        "secrecy"
+      ],
+      "ts_signals": [
+        "impersonation",
+        "legal-threat",
+        "secrecy"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "urgency-01",
+      "category": "urgency-threats",
+      "message_preview": "URGENT: Your HDFC account will be blocked immediately if you do not pay Rs 999 p...",
+      "python_risk": "high_risk",
+      "ts_risk": "high_risk",
+      "python_signals": [
+        "account-threat",
+        "impersonation",
+        "payment-demand",
+        "urgency"
+      ],
+      "ts_signals": [
+        "account-threat",
+        "impersonation",
+        "payment-demand",
+        "urgency"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "urgency-02",
+      "category": "urgency-threats",
+      "message_preview": "FINAL WARNING: Pay Rs 1999 processing fee now or your loan application will be c...",
+      "python_risk": "suspicious",
+      "ts_risk": "suspicious",
+      "python_signals": [
+        "payment-demand",
+        "urgency"
+      ],
+      "ts_signals": [
+        "payment-demand",
+        "urgency"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "urgency-03",
+      "category": "urgency-threats",
+      "message_preview": "Dear subscriber, your SIM will be disconnected in 2 hours due to incomplete veri...",
+      "python_risk": "suspicious",
+      "ts_risk": "suspicious",
+      "python_signals": [
+        "account-threat",
+        "callback-number"
+      ],
+      "ts_signals": [
+        "account-threat",
+        "callback-number"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "urgency-04",
+      "category": "urgency-threats",
+      "message_preview": "Your electricity connection will be disconnected today itself due to unpaid bill...",
+      "python_risk": "high_risk",
+      "ts_risk": "high_risk",
+      "python_signals": [
+        "account-threat",
+        "payment-demand",
+        "urgency"
+      ],
+      "ts_signals": [
+        "account-threat",
+        "payment-demand",
+        "urgency"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "urgency-05",
+      "category": "urgency-threats",
+      "message_preview": "A FIR has been registered against you for money laundering. Stay on the call and...",
+      "python_risk": "high_risk",
+      "ts_risk": "high_risk",
+      "python_signals": [
+        "legal-threat",
+        "secrecy"
+      ],
+      "ts_signals": [
+        "legal-threat",
+        "secrecy"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "prize-fee-01",
+      "category": "prizes-fees",
+      "message_preview": "Congratulations! You have won Rs 10 lakh in the National Lottery. Pay Rs 999 pro...",
+      "python_risk": "suspicious",
+      "ts_risk": "suspicious",
+      "python_signals": [
+        "payment-demand",
+        "too-good"
+      ],
+      "ts_signals": [
+        "payment-demand",
+        "too-good"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "prize-fee-02",
+      "category": "prizes-fees",
+      "message_preview": "Work from home opportunity! Earn Rs 5000 per day by liking YouTube videos. No ex...",
+      "python_risk": "suspicious",
+      "ts_risk": "suspicious",
+      "python_signals": [
+        "callback-number",
+        "too-good"
+      ],
+      "ts_signals": [
+        "callback-number",
+        "too-good"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "prize-fee-03",
+      "category": "prizes-fees",
+      "message_preview": "Your tax refund of Rs 15000 is approved. Pay the release charge of Rs 500 to rec...",
+      "python_risk": "suspicious",
+      "ts_risk": "suspicious",
+      "python_signals": [
+        "payment-demand"
+      ],
+      "ts_signals": [
+        "payment-demand"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "prize-fee-04",
+      "category": "prizes-fees",
+      "message_preview": "Your international parcel from FedEx is held at customs. Pay clearance fee of Rs...",
+      "python_risk": "high_risk",
+      "ts_risk": "high_risk",
+      "python_signals": [
+        "impersonation",
+        "payment-demand",
+        "urgency"
+      ],
+      "ts_signals": [
+        "impersonation",
+        "payment-demand",
+        "urgency"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "legit-01",
+      "category": "legitimate",
+      "message_preview": "Rs 250.00 paid to Swiggy via UPI. Ref: 426318745923. Balance: Rs 8,450.00.",
+      "python_risk": "no_strong_signs",
+      "ts_risk": "no_strong_signs",
+      "python_signals": [],
+      "ts_signals": [],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "legit-02",
+      "category": "legitimate",
+      "message_preview": "EMI of Rs 8,333 has been debited from your HDFC account for Home Loan A/c 123456...",
+      "python_risk": "suspicious",
+      "ts_risk": "suspicious",
+      "python_signals": [
+        "impersonation"
+      ],
+      "ts_signals": [
+        "impersonation"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "legit-03",
+      "category": "legitimate",
+      "message_preview": "Salary of Rs 65,000.00 credited to your SBI account ending 4321. Available balan...",
+      "python_risk": "suspicious",
+      "ts_risk": "suspicious",
+      "python_signals": [
+        "impersonation"
+      ],
+      "ts_signals": [
+        "impersonation"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "legit-04",
+      "category": "legitimate",
+      "message_preview": "Thank you for paying your Indane gas bill of Rs 950. Payment reference: GAS20261...",
+      "python_risk": "no_strong_signs",
+      "ts_risk": "no_strong_signs",
+      "python_signals": [],
+      "ts_signals": [],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "legit-05",
+      "category": "legitimate",
+      "message_preview": "Your payment of Rs 499.00 to Amazon has been successful. Transaction ID: TXN2026...",
+      "python_risk": "no_strong_signs",
+      "ts_risk": "no_strong_signs",
+      "python_signals": [],
+      "ts_signals": [],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "negation-01",
+      "category": "negation-advisory",
+      "message_preview": "847291 is your one-time password for transaction of Rs 999 at Amazon. Do not sha...",
+      "python_risk": "suspicious",
+      "ts_risk": "suspicious",
+      "python_signals": [
+        "urgency"
+      ],
+      "ts_signals": [
+        "urgency"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "negation-02",
+      "category": "negation-advisory",
+      "message_preview": "RBI advisory: Never share your UPI PIN, OTP, or CVV with anyone. Your bank will ...",
+      "python_risk": "no_strong_signs",
+      "ts_risk": "no_strong_signs",
+      "python_signals": [],
+      "ts_signals": [],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "negation-03",
+      "category": "negation-advisory",
+      "message_preview": "Security reminder from Kotak Bank: Don't share your password or OTP with anyone,...",
+      "python_risk": "no_strong_signs",
+      "ts_risk": "no_strong_signs",
+      "python_signals": [],
+      "ts_signals": [],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "negation-04",
+      "category": "negation-advisory",
+      "message_preview": "Important: No one will ask for your OTP or password from Paytm. If someone does,...",
+      "python_risk": "suspicious",
+      "ts_risk": "suspicious",
+      "python_signals": [
+        "urgency"
+      ],
+      "ts_signals": [
+        "urgency"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "ambiguous-01",
+      "category": "ambiguous",
+      "message_preview": "Your account details need to be updated for compliance. Please visit our nearest...",
+      "python_risk": "no_strong_signs",
+      "ts_risk": "no_strong_signs",
+      "python_signals": [],
+      "ts_signals": [],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "ambiguous-02",
+      "category": "ambiguous",
+      "message_preview": "Your order has been delayed. Track your shipment at https://example.com/track/12...",
+      "python_risk": "no_strong_signs",
+      "ts_risk": "no_strong_signs",
+      "python_signals": [
+        "link-present"
+      ],
+      "ts_signals": [
+        "link-present"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "ambiguous-03",
+      "category": "ambiguous",
+      "message_preview": "Your vehicle insurance policy expires on 30 Oct 2026. Renewal premium: Rs 12,500...",
+      "python_risk": "no_strong_signs",
+      "ts_risk": "no_strong_signs",
+      "python_signals": [],
+      "ts_signals": [],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "edge-unicode-01",
+      "category": "unicode-edge",
+      "message_preview": "Please share your ＯＴＰ to complete your account verification process.",
+      "python_risk": "high_risk",
+      "ts_risk": "high_risk",
+      "python_signals": [
+        "credential-request"
+      ],
+      "ts_signals": [
+        "credential-request"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "edge-unicode-02",
+      "category": "unicode-edge",
+      "message_preview": "URGENTLY update your account details or face permanent suspension from services.",
+      "python_risk": "suspicious",
+      "ts_risk": "suspicious",
+      "python_signals": [
+        "urgency"
+      ],
+      "ts_signals": [
+        "urgency"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "edge-whitespace-01",
+      "category": "unicode-edge",
+      "message_preview": "Please   share    your    OTP    immediately   to   verify   your   account.",
+      "python_risk": "high_risk",
+      "ts_risk": "high_risk",
+      "python_signals": [
+        "credential-request",
+        "urgency"
+      ],
+      "ts_signals": [
+        "credential-request",
+        "urgency"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "edge-empty-01",
+      "category": "unicode-edge",
+      "message_preview": "",
+      "python_risk": "no_strong_signs",
+      "ts_risk": "no_strong_signs",
+      "python_signals": [],
+      "ts_signals": [],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "edge-short-01",
+      "category": "unicode-edge",
+      "message_preview": "Hi there",
+      "python_risk": "no_strong_signs",
+      "ts_risk": "no_strong_signs",
+      "python_signals": [],
+      "ts_signals": [],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "edge-emoji-01",
+      "category": "unicode-edge",
+      "message_preview": "🎉 Congratulations! 🎊 You have won 💰💰💰! Claim your reward now!",
+      "python_risk": "suspicious",
+      "ts_risk": "suspicious",
+      "python_signals": [
+        "too-good"
+      ],
+      "ts_signals": [
+        "too-good"
+      ],
+      "mismatches": [
+        {
+          "field": "signal[too-good].evidence",
+          "python": [
+            "…ations! 🎊 You have won 💰💰💰! Claim your reward now!",
+            "🎉 Congratulations! 🎊 You have won 💰💰💰! Claim your reward now!"
+          ],
+          "typescript": [
+            "…ns! 🎊 You have won 💰💰💰! Claim your reward now!",
+            "🎉 Congratulations! 🎊 You have won 💰💰💰! Claim your reward n…"
+          ],
+          "intentional": true,
+          "reason": "Snippet boundary variation due to JavaScript UTF-16 code units vs Python Unicode code points on multi-byte / emoji characters."
+        }
+      ],
+      "match": false,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 1
+    },
+    {
+      "id": "remote-access-01",
+      "category": "otp-pin-password",
+      "message_preview": "To fix your banking issue, please install AnyDesk from the Play Store and share ...",
+      "python_risk": "high_risk",
+      "ts_risk": "high_risk",
+      "python_signals": [
+        "remote-access"
+      ],
+      "ts_signals": [
+        "remote-access"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "callback-01",
+      "category": "impersonation",
+      "message_preview": "Your parcel is held at customs. Call +91 98765 43210 immediately to pay the rele...",
+      "python_risk": "high_risk",
+      "ts_risk": "high_risk",
+      "python_signals": [
+        "callback-number",
+        "impersonation",
+        "payment-demand",
+        "urgency"
+      ],
+      "ts_signals": [
+        "callback-number",
+        "impersonation",
+        "payment-demand",
+        "urgency"
+      ],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    },
+    {
+      "id": "legit-benign-01",
+      "category": "legitimate",
+      "message_preview": "Good morning! Have a wonderful day ahead.",
+      "python_risk": "no_strong_signs",
+      "ts_risk": "no_strong_signs",
+      "python_signals": [],
+      "ts_signals": [],
+      "mismatches": [],
+      "match": true,
+      "is_functionally_equivalent": true,
+      "unexpected_mismatch_count": 0,
+      "intentional_difference_count": 0
+    }
+  ]
+}

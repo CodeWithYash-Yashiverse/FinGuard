@@ -1,0 +1,1619 @@
+[
+  {
+    "id": "otp-direct-01",
+    "riskLevel": "high_risk",
+    "signalIds": [
+      "credential-request",
+      "impersonation"
+    ],
+    "signalDetails": [
+      {
+        "id": "credential-request",
+        "category": "credentials",
+        "severity": "high",
+        "title": "Asks you to share an OTP, PIN, or password",
+        "explanation": "Banks, payment apps, and government agencies never ask you to share an OTP, UPI PIN, CVV, or password. Anyone who has these can move money out of your account.",
+        "evidence": [
+          "Dear customer, please send us your OTP to complete verification of…"
+        ]
+      },
+      {
+        "id": "impersonation",
+        "category": "impersonation",
+        "severity": "medium",
+        "title": "Claims to be from a bank, payment app, or authority",
+        "explanation": "Anyone can put a bank, brand, or government name in a message. A claim of identity is not proof of identity — confirm it using contact details you find yourself.",
+        "evidence": [
+          "…mplete verification of your SBI account."
+        ]
+      }
+    ],
+    "summary": "We found 2 warning signs, including patterns strongly associated with payment scams. Do not act on this message until you have verified it independently.",
+    "nextSteps": [
+      "Do not share any OTP, UPI PIN, CVV, or password — with anyone, for any reason.",
+      "If you already shared details or sent money, call your bank immediately using the number on your card or their official website, and ask them to block the transaction.",
+      "Report the message to your national cybercrime reporting service (see Safety & Reporting below)."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "otp-direct-02",
+    "riskLevel": "high_risk",
+    "signalIds": [
+      "credential-request"
+    ],
+    "signalDetails": [
+      {
+        "id": "credential-request",
+        "category": "credentials",
+        "severity": "high",
+        "title": "Asks you to share an OTP, PIN, or password",
+        "explanation": "Banks, payment apps, and government agencies never ask you to share an OTP, UPI PIN, CVV, or password. Anyone who has these can move money out of your account.",
+        "evidence": [
+          "…process your refund, please provide your CVV and card number to our supp…"
+        ]
+      }
+    ],
+    "summary": "We found 1 warning sign, including patterns strongly associated with payment scams. Do not act on this message until you have verified it independently.",
+    "nextSteps": [
+      "Do not share any OTP, UPI PIN, CVV, or password — with anyone, for any reason.",
+      "If you already shared details or sent money, call your bank immediately using the number on your card or their official website, and ask them to block the transaction.",
+      "Report the message to your national cybercrime reporting service (see Safety & Reporting below)."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "otp-direct-03",
+    "riskLevel": "high_risk",
+    "signalIds": [
+      "credential-request",
+      "urgency"
+    ],
+    "signalDetails": [
+      {
+        "id": "credential-request",
+        "category": "credentials",
+        "severity": "high",
+        "title": "Asks you to share an OTP, PIN, or password",
+        "explanation": "Banks, payment apps, and government agencies never ask you to share an OTP, UPI PIN, CVV, or password. Anyone who has these can move money out of your account.",
+        "evidence": [
+          "…banking access has expired. Share your password immediately to restore acce…"
+        ]
+      },
+      {
+        "id": "urgency",
+        "category": "urgency",
+        "severity": "medium",
+        "title": "Creates pressure to act immediately",
+        "explanation": "Scammers rush you so you act before verifying. A genuine organisation will give you time to check through official channels.",
+        "evidence": [
+          "…xpired. Share your password immediately to restore access."
+        ]
+      }
+    ],
+    "summary": "We found 2 warning signs, including patterns strongly associated with payment scams. Do not act on this message until you have verified it independently.",
+    "nextSteps": [
+      "Do not share any OTP, UPI PIN, CVV, or password — with anyone, for any reason.",
+      "If you already shared details or sent money, call your bank immediately using the number on your card or their official website, and ask them to block the transaction.",
+      "Report the message to your national cybercrime reporting service (see Safety & Reporting below)."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "otp-direct-04",
+    "riskLevel": "high_risk",
+    "signalIds": [
+      "credential-request"
+    ],
+    "signalDetails": [
+      {
+        "id": "credential-request",
+        "category": "credentials",
+        "severity": "high",
+        "title": "Asks you to share an OTP, PIN, or password",
+        "explanation": "Banks, payment apps, and government agencies never ask you to share an OTP, UPI PIN, CVV, or password. Anyone who has these can move money out of your account.",
+        "evidence": [
+          "…as been sent to your phone. Reply with the verification code to proceed."
+        ]
+      }
+    ],
+    "summary": "We found 1 warning sign, including patterns strongly associated with payment scams. Do not act on this message until you have verified it independently.",
+    "nextSteps": [
+      "Do not share any OTP, UPI PIN, CVV, or password — with anyone, for any reason.",
+      "If you already shared details or sent money, call your bank immediately using the number on your card or their official website, and ask them to block the transaction.",
+      "Report the message to your national cybercrime reporting service (see Safety & Reporting below)."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "otp-direct-05",
+    "riskLevel": "high_risk",
+    "signalIds": [
+      "credential-request"
+    ],
+    "signalDetails": [
+      {
+        "id": "credential-request",
+        "category": "credentials",
+        "severity": "high",
+        "title": "Asks you to share an OTP, PIN, or password",
+        "explanation": "Banks, payment apps, and government agencies never ask you to share an OTP, UPI PIN, CVV, or password. Anyone who has these can move money out of your account.",
+        "evidence": [
+          "…he issue with your account, tell me your M-PIN so we can verify your ident…"
+        ]
+      }
+    ],
+    "summary": "We found 1 warning sign, including patterns strongly associated with payment scams. Do not act on this message until you have verified it independently.",
+    "nextSteps": [
+      "Do not share any OTP, UPI PIN, CVV, or password — with anyone, for any reason.",
+      "If you already shared details or sent money, call your bank immediately using the number on your card or their official website, and ask them to block the transaction.",
+      "Report the message to your national cybercrime reporting service (see Safety & Reporting below)."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "qr-payment-01",
+    "riskLevel": "high_risk",
+    "signalIds": [
+      "pin-to-receive",
+      "payment-demand",
+      "impersonation"
+    ],
+    "signalDetails": [
+      {
+        "id": "pin-to-receive",
+        "category": "payment",
+        "severity": "high",
+        "title": "Claims you need a PIN or QR scan to receive money",
+        "explanation": "You never need to enter your UPI PIN, scan a QR code, or approve a request to receive money. Entering your PIN always sends money out of your account.",
+        "evidence": [
+          "…shback of Rs 1500 is ready. Enter your UPI PIN on the collect request to receive the refund."
+        ]
+      },
+      {
+        "id": "payment-demand",
+        "category": "payment",
+        "severity": "medium",
+        "title": "Requests a payment, fee, or approval",
+        "explanation": "Unexpected requests to pay a fee, deposit, or \"release\" charge are a hallmark of prize, job, delivery, and loan scams. Verify any request for money independently.",
+        "evidence": [
+          "…. Enter your UPI PIN on the collect request to receive the refund."
+        ]
+      },
+      {
+        "id": "impersonation",
+        "category": "impersonation",
+        "severity": "medium",
+        "title": "Claims to be from a bank, payment app, or authority",
+        "explanation": "Anyone can put a bank, brand, or government name in a message. A claim of identity is not proof of identity — confirm it using contact details you find yourself.",
+        "evidence": [
+          "Your PhonePe cashback of Rs 1500 is read…"
+        ]
+      }
+    ],
+    "summary": "We found 3 warning signs, including patterns strongly associated with payment scams. Do not act on this message until you have verified it independently.",
+    "nextSteps": [
+      "Do not send money, enter your PIN, scan the QR code, or approve any collect request from this message.",
+      "If you already shared details or sent money, call your bank immediately using the number on your card or their official website, and ask them to block the transaction.",
+      "Report the message to your national cybercrime reporting service (see Safety & Reporting below)."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "qr-payment-02",
+    "riskLevel": "high_risk",
+    "signalIds": [
+      "pin-to-receive",
+      "payment-demand"
+    ],
+    "signalDetails": [
+      {
+        "id": "pin-to-receive",
+        "category": "payment",
+        "severity": "high",
+        "title": "Claims you need a PIN or QR scan to receive money",
+        "explanation": "You never need to enter your UPI PIN, scan a QR code, or approve a request to receive money. Entering your PIN always sends money out of your account.",
+        "evidence": [
+          "To get your refund of Rs 3000, scan the QR code below and approve the…"
+        ]
+      },
+      {
+        "id": "payment-demand",
+        "category": "payment",
+        "severity": "medium",
+        "title": "Requests a payment, fee, or approval",
+        "explanation": "Unexpected requests to pay a fee, deposit, or \"release\" charge are a hallmark of prize, job, delivery, and loan scams. Verify any request for money independently.",
+        "evidence": [
+          "…scan the QR code below and approve the payment request."
+        ]
+      }
+    ],
+    "summary": "We found 2 warning signs, including patterns strongly associated with payment scams. Do not act on this message until you have verified it independently.",
+    "nextSteps": [
+      "Do not send money, enter your PIN, scan the QR code, or approve any collect request from this message.",
+      "If you already shared details or sent money, call your bank immediately using the number on your card or their official website, and ask them to block the transaction.",
+      "Report the message to your national cybercrime reporting service (see Safety & Reporting below)."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "qr-payment-03",
+    "riskLevel": "high_risk",
+    "signalIds": [
+      "pin-to-receive",
+      "too-good"
+    ],
+    "signalDetails": [
+      {
+        "id": "pin-to-receive",
+        "category": "payment",
+        "severity": "high",
+        "title": "Claims you need a PIN or QR scan to receive money",
+        "explanation": "You never need to enter your UPI PIN, scan a QR code, or approve a request to receive money. Entering your PIN always sends money out of your account.",
+        "evidence": [
+          "…ulations! You won Rs 25000. Enter your UPI PIN to claim the prize."
+        ]
+      },
+      {
+        "id": "too-good",
+        "category": "pattern",
+        "severity": "medium",
+        "title": "Offers a prize, refund, or income that seems too good",
+        "explanation": "Unexpected winnings, cashback, refunds, or easy-income offers are used to lower your guard before asking for a fee or your details.",
+        "evidence": [
+          "Congratulations! You won Rs 25000. Enter your UPI PI…"
+        ]
+      }
+    ],
+    "summary": "We found 2 warning signs, including patterns strongly associated with payment scams. Do not act on this message until you have verified it independently.",
+    "nextSteps": [
+      "Do not send money, enter your PIN, scan the QR code, or approve any collect request from this message.",
+      "If you already shared details or sent money, call your bank immediately using the number on your card or their official website, and ask them to block the transaction.",
+      "Report the message to your national cybercrime reporting service (see Safety & Reporting below)."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "link-suspicious-01",
+    "riskLevel": "high_risk",
+    "signalIds": [
+      "credential-request",
+      "account-threat",
+      "link-tld",
+      "link-insecure"
+    ],
+    "signalDetails": [
+      {
+        "id": "credential-request",
+        "category": "credentials",
+        "severity": "high",
+        "title": "Asks you to share an OTP, PIN, or password",
+        "explanation": "Banks, payment apps, and government agencies never ask you to share an OTP, UPI PIN, CVV, or password. Anyone who has these can move money out of your account.",
+        "evidence": [
+          "…n-kyc-update.xyz/verify and share the OTP sent to your mobile."
+        ]
+      },
+      {
+        "id": "account-threat",
+        "category": "urgency",
+        "severity": "medium",
+        "title": "Warns that your account or service will be blocked",
+        "explanation": "Messages claiming your account, card, SIM, or KYC will be blocked are a common way to push people into clicking links or sharing details.",
+        "evidence": [
+          "Your PAN card KYC is pending. Update at http://pan-kyc-u…",
+          "…nding. Update at http://pan-kyc-update.xyz/verify and share the OT…"
+        ]
+      },
+      {
+        "id": "link-tld",
+        "category": "link",
+        "severity": "medium",
+        "title": "Link uses an unusual domain ending",
+        "explanation": "Domains ending in \".xyz\" are cheap to register and are frequently used for short-lived scam sites.",
+        "evidence": [
+          "http://pan-kyc-update.xyz/verify"
+        ]
+      },
+      {
+        "id": "link-insecure",
+        "category": "link",
+        "severity": "low",
+        "title": "Link is not encrypted",
+        "explanation": "This link uses http instead of https. A payment or login page should never be served without encryption.",
+        "evidence": [
+          "http://pan-kyc-update.xyz/verify"
+        ]
+      }
+    ],
+    "summary": "We found 4 warning signs, including patterns strongly associated with payment scams. Do not act on this message until you have verified it independently.",
+    "nextSteps": [
+      "Do not share any OTP, UPI PIN, CVV, or password — with anyone, for any reason.",
+      "Do not open the link. If you need to check your account, type the official website address yourself or use the official app.",
+      "If you already shared details or sent money, call your bank immediately using the number on your card or their official website, and ask them to block the transaction.",
+      "Report the message to your national cybercrime reporting service (see Safety & Reporting below)."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "link-suspicious-02",
+    "riskLevel": "suspicious",
+    "signalIds": [
+      "payment-demand",
+      "link-shortener"
+    ],
+    "signalDetails": [
+      {
+        "id": "payment-demand",
+        "category": "payment",
+        "severity": "medium",
+        "title": "Requests a payment, fee, or approval",
+        "explanation": "Unexpected requests to pay a fee, deposit, or \"release\" charge are a hallmark of prize, job, delivery, and loan scams. Verify any request for money independently.",
+        "evidence": [
+          "…. Pay now at https://bit.ly/pay-delivery-fee to avoid return.",
+          "Your parcel delivery fee of Rs 149 is pending. Pay n…"
+        ]
+      },
+      {
+        "id": "link-shortener",
+        "category": "link",
+        "severity": "medium",
+        "title": "Shortened link hides the real destination",
+        "explanation": "Link shorteners conceal where you will actually land. Payment providers rarely send shortened links for account actions.",
+        "evidence": [
+          "https://bit.ly/pay-delivery-fee"
+        ]
+      }
+    ],
+    "summary": "We found 2 warning signs that are common in scam messages. This is not proof of fraud, but the message deserves caution and independent verification.",
+    "nextSteps": [
+      "Do not send money, enter your PIN, scan the QR code, or approve any collect request from this message.",
+      "Do not open the link. If you need to check your account, type the official website address yourself or use the official app.",
+      "Pause before responding. Contact the organisation through a phone number or website you find independently."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "link-suspicious-03",
+    "riskLevel": "high_risk",
+    "signalIds": [
+      "link-lookalike",
+      "urgency",
+      "account-threat",
+      "impersonation",
+      "link-tld",
+      "link-insecure"
+    ],
+    "signalDetails": [
+      {
+        "id": "link-lookalike",
+        "category": "link",
+        "severity": "high",
+        "title": "Link imitates a known brand but is not its official domain",
+        "explanation": "The address mentions \"hdfc\" but is not an official HDFC domain. Look-alike sites are built to collect login details and card numbers.",
+        "evidence": [
+          "http://hdfc-bank-verify.online/secure"
+        ]
+      },
+      {
+        "id": "urgency",
+        "category": "urgency",
+        "severity": "medium",
+        "title": "Creates pressure to act immediately",
+        "explanation": "Scammers rush you so you act before verifying. A genuine organisation will give you time to check through official channels.",
+        "evidence": [
+          "…suspicious activity. Verify immediately at http://hdfc-bank-verify.…"
+        ]
+      },
+      {
+        "id": "account-threat",
+        "category": "urgency",
+        "severity": "medium",
+        "title": "Warns that your account or service will be blocked",
+        "explanation": "Messages claiming your account, card, SIM, or KYC will be blocked are a common way to push people into clicking links or sharing details.",
+        "evidence": [
+          "Your HDFC account has been frozen due to suspicious activity.…"
+        ]
+      },
+      {
+        "id": "impersonation",
+        "category": "impersonation",
+        "severity": "medium",
+        "title": "Claims to be from a bank, payment app, or authority",
+        "explanation": "Anyone can put a bank, brand, or government name in a message. A claim of identity is not proof of identity — confirm it using contact details you find yourself.",
+        "evidence": [
+          "Your HDFC account has been frozen due…",
+          "…erify immediately at http://hdfc-bank-verify.online/secure"
+        ]
+      },
+      {
+        "id": "link-tld",
+        "category": "link",
+        "severity": "medium",
+        "title": "Link uses an unusual domain ending",
+        "explanation": "Domains ending in \".online\" are cheap to register and are frequently used for short-lived scam sites.",
+        "evidence": [
+          "http://hdfc-bank-verify.online/secure"
+        ]
+      },
+      {
+        "id": "link-insecure",
+        "category": "link",
+        "severity": "low",
+        "title": "Link is not encrypted",
+        "explanation": "This link uses http instead of https. A payment or login page should never be served without encryption.",
+        "evidence": [
+          "http://hdfc-bank-verify.online/secure"
+        ]
+      }
+    ],
+    "summary": "We found 6 warning signs, including patterns strongly associated with payment scams. Do not act on this message until you have verified it independently.",
+    "nextSteps": [
+      "Do not open the link. If you need to check your account, type the official website address yourself or use the official app.",
+      "If you already shared details or sent money, call your bank immediately using the number on your card or their official website, and ask them to block the transaction.",
+      "Report the message to your national cybercrime reporting service (see Safety & Reporting below)."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "link-suspicious-04",
+    "riskLevel": "high_risk",
+    "signalIds": [
+      "link-ip",
+      "link-insecure"
+    ],
+    "signalDetails": [
+      {
+        "id": "link-ip",
+        "category": "link",
+        "severity": "high",
+        "title": "Link points to a raw IP address",
+        "explanation": "Legitimate banks and payment services use named domains. A link made of numbers hides who operates the site.",
+        "evidence": [
+          "http://45.67.89.123/banking-portal"
+        ]
+      },
+      {
+        "id": "link-insecure",
+        "category": "link",
+        "severity": "low",
+        "title": "Link is not encrypted",
+        "explanation": "This link uses http instead of https. A payment or login page should never be served without encryption.",
+        "evidence": [
+          "http://45.67.89.123/banking-portal"
+        ]
+      }
+    ],
+    "summary": "We found 2 warning signs, including patterns strongly associated with payment scams. Do not act on this message until you have verified it independently.",
+    "nextSteps": [
+      "Do not open the link. If you need to check your account, type the official website address yourself or use the official app.",
+      "If you already shared details or sent money, call your bank immediately using the number on your card or their official website, and ask them to block the transaction.",
+      "Report the message to your national cybercrime reporting service (see Safety & Reporting below)."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "impersonation-01",
+    "riskLevel": "suspicious",
+    "signalIds": [
+      "impersonation"
+    ],
+    "signalDetails": [
+      {
+        "id": "impersonation",
+        "category": "impersonation",
+        "severity": "medium",
+        "title": "Claims to be from a bank, payment app, or authority",
+        "explanation": "Anyone can put a bank, brand, or government name in a message. A claim of identity is not proof of identity — confirm it using contact details you find yourself.",
+        "evidence": [
+          "This is Amazon customer care. Your account…",
+          "This is Amazon customer care. Your account has been flag…"
+        ]
+      }
+    ],
+    "summary": "We found 1 warning sign that are common in scam messages. This is not proof of fraud, but the message deserves caution and independent verification.",
+    "nextSteps": [
+      "Pause before responding. Contact the organisation through a phone number or website you find independently."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "impersonation-02",
+    "riskLevel": "suspicious",
+    "signalIds": [
+      "impersonation"
+    ],
+    "signalDetails": [
+      {
+        "id": "impersonation",
+        "category": "impersonation",
+        "severity": "medium",
+        "title": "Claims to be from a bank, payment app, or authority",
+        "explanation": "Anyone can put a bank, brand, or government name in a message. A claim of identity is not proof of identity — confirm it using contact details you find yourself.",
+        "evidence": [
+          "Dear SBI customer, your account veri…"
+        ]
+      }
+    ],
+    "summary": "We found 1 warning sign that are common in scam messages. This is not proof of fraud, but the message deserves caution and independent verification.",
+    "nextSteps": [
+      "Pause before responding. Contact the organisation through a phone number or website you find independently."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "impersonation-03",
+    "riskLevel": "high_risk",
+    "signalIds": [
+      "legal-threat",
+      "impersonation",
+      "secrecy"
+    ],
+    "signalDetails": [
+      {
+        "id": "legal-threat",
+        "category": "urgency",
+        "severity": "high",
+        "title": "Threatens arrest or legal action",
+        "explanation": "Police, courts, and tax authorities do not demand payment over messages or calls, and there is no such thing as a \"digital arrest\". Fear is used to stop you from thinking clearly.",
+        "evidence": [
+          "…is CBI officer speaking. A money laundering case has been registered against…",
+          "…against you. You are under digital arrest. Don't tell anyone or hang…"
+        ]
+      },
+      {
+        "id": "impersonation",
+        "category": "impersonation",
+        "severity": "medium",
+        "title": "Claims to be from a bank, payment app, or authority",
+        "explanation": "Anyone can put a bank, brand, or government name in a message. A claim of identity is not proof of identity — confirm it using contact details you find yourself.",
+        "evidence": [
+          "This is CBI officer speaking. A money l…"
+        ]
+      },
+      {
+        "id": "secrecy",
+        "category": "pattern",
+        "severity": "medium",
+        "title": "Asks you to keep the conversation secret",
+        "explanation": "Being told not to tell family or your bank, or to stay on the call, is a pressure tactic designed to stop someone from warning you.",
+        "evidence": [
+          "…u are under digital arrest. Don't tell anyone or hang up."
+        ]
+      }
+    ],
+    "summary": "We found 3 warning signs, including patterns strongly associated with payment scams. Do not act on this message until you have verified it independently.",
+    "nextSteps": [
+      "End the conversation. Talk to someone you trust before doing anything — real authorities will not object.",
+      "If you already shared details or sent money, call your bank immediately using the number on your card or their official website, and ask them to block the transaction.",
+      "Report the message to your national cybercrime reporting service (see Safety & Reporting below)."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "urgency-01",
+    "riskLevel": "high_risk",
+    "signalIds": [
+      "urgency",
+      "account-threat",
+      "payment-demand",
+      "impersonation"
+    ],
+    "signalDetails": [
+      {
+        "id": "urgency",
+        "category": "urgency",
+        "severity": "medium",
+        "title": "Creates pressure to act immediately",
+        "explanation": "Scammers rush you so you act before verifying. A genuine organisation will give you time to check through official channels.",
+        "evidence": [
+          "URGENT: Your HDFC account will be…",
+          "…DFC account will be blocked immediately if you do not pay Rs 999 pr…",
+          "…ht now. Transfer the amount within 30 minutes or your card will be suspen…"
+        ]
+      },
+      {
+        "id": "account-threat",
+        "category": "urgency",
+        "severity": "medium",
+        "title": "Warns that your account or service will be blocked",
+        "explanation": "Messages claiming your account, card, SIM, or KYC will be blocked are a common way to push people into clicking links or sharing details.",
+        "evidence": [
+          "URGENT: Your HDFC account will be blocked immediately if you do not p…",
+          "…t within 30 minutes or your card will be suspended."
+        ]
+      },
+      {
+        "id": "payment-demand",
+        "category": "payment",
+        "severity": "medium",
+        "title": "Requests a payment, fee, or approval",
+        "explanation": "Unexpected requests to pay a fee, deposit, or \"release\" charge are a hallmark of prize, job, delivery, and loan scams. Verify any request for money independently.",
+        "evidence": [
+          "…d immediately if you do not pay Rs 999 processing fee right now. Transfer the amo…",
+          "…9 processing fee right now. Transfer the amount within 30 minutes or your c…",
+          "…ly if you do not pay Rs 999 processing fee right now. Transfer the amo…"
+        ]
+      },
+      {
+        "id": "impersonation",
+        "category": "impersonation",
+        "severity": "medium",
+        "title": "Claims to be from a bank, payment app, or authority",
+        "explanation": "Anyone can put a bank, brand, or government name in a message. A claim of identity is not proof of identity — confirm it using contact details you find yourself.",
+        "evidence": [
+          "URGENT: Your HDFC account will be blocked imm…"
+        ]
+      }
+    ],
+    "summary": "We found 4 warning signs, including patterns strongly associated with payment scams. Do not act on this message until you have verified it independently.",
+    "nextSteps": [
+      "Do not send money, enter your PIN, scan the QR code, or approve any collect request from this message.",
+      "If you already shared details or sent money, call your bank immediately using the number on your card or their official website, and ask them to block the transaction.",
+      "Report the message to your national cybercrime reporting service (see Safety & Reporting below)."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "urgency-02",
+    "riskLevel": "suspicious",
+    "signalIds": [
+      "urgency",
+      "payment-demand"
+    ],
+    "signalDetails": [
+      {
+        "id": "urgency",
+        "category": "urgency",
+        "severity": "medium",
+        "title": "Creates pressure to act immediately",
+        "explanation": "Scammers rush you so you act before verifying. A genuine organisation will give you time to check through official channels.",
+        "evidence": [
+          "FINAL WARNING: Pay Rs 1999 processing fee…"
+        ]
+      },
+      {
+        "id": "payment-demand",
+        "category": "payment",
+        "severity": "medium",
+        "title": "Requests a payment, fee, or approval",
+        "explanation": "Unexpected requests to pay a fee, deposit, or \"release\" charge are a hallmark of prize, job, delivery, and loan scams. Verify any request for money independently.",
+        "evidence": [
+          "FINAL WARNING: Pay Rs 1999 processing fee now or your loan applicatio…"
+        ]
+      }
+    ],
+    "summary": "We found 2 warning signs that are common in scam messages. This is not proof of fraud, but the message deserves caution and independent verification.",
+    "nextSteps": [
+      "Do not send money, enter your PIN, scan the QR code, or approve any collect request from this message.",
+      "Pause before responding. Contact the organisation through a phone number or website you find independently."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "urgency-03",
+    "riskLevel": "suspicious",
+    "signalIds": [
+      "account-threat",
+      "callback-number"
+    ],
+    "signalDetails": [
+      {
+        "id": "account-threat",
+        "category": "urgency",
+        "severity": "medium",
+        "title": "Warns that your account or service will be blocked",
+        "explanation": "Messages claiming your account, card, SIM, or KYC will be blocked are a common way to push people into clicking links or sharing details.",
+        "evidence": [
+          "Dear subscriber, your SIM will be disconnected in 2 hours due to incomplet…"
+        ]
+      },
+      {
+        "id": "callback-number",
+        "category": "impersonation",
+        "severity": "low",
+        "title": "Asks you to call or message an unverified number",
+        "explanation": "Numbers inside a suspicious message may connect you directly to the scammer. Use the number printed on your card or the official website instead.",
+        "evidence": [
+          "…to incomplete verification. Call 9********0 now."
+        ]
+      }
+    ],
+    "summary": "We found 2 warning signs that are common in scam messages. This is not proof of fraud, but the message deserves caution and independent verification.",
+    "nextSteps": [
+      "Pause before responding. Contact the organisation through a phone number or website you find independently."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "urgency-04",
+    "riskLevel": "high_risk",
+    "signalIds": [
+      "urgency",
+      "account-threat",
+      "payment-demand"
+    ],
+    "signalDetails": [
+      {
+        "id": "urgency",
+        "category": "urgency",
+        "severity": "medium",
+        "title": "Creates pressure to act immediately",
+        "explanation": "Scammers rush you so you act before verifying. A genuine organisation will give you time to check through official channels.",
+        "evidence": [
+          "…ection will be disconnected today itself due to unpaid bill. Pay Rs…",
+          "…to unpaid bill. Pay Rs 2500 immediately."
+        ]
+      },
+      {
+        "id": "account-threat",
+        "category": "urgency",
+        "severity": "medium",
+        "title": "Warns that your account or service will be blocked",
+        "explanation": "Messages claiming your account, card, SIM, or KYC will be blocked are a common way to push people into clicking links or sharing details.",
+        "evidence": [
+          "Your electricity connection will be disconnected today itself due to unpaid…"
+        ]
+      },
+      {
+        "id": "payment-demand",
+        "category": "payment",
+        "severity": "medium",
+        "title": "Requests a payment, fee, or approval",
+        "explanation": "Unexpected requests to pay a fee, deposit, or \"release\" charge are a hallmark of prize, job, delivery, and loan scams. Verify any request for money independently.",
+        "evidence": [
+          "…itself due to unpaid bill. Pay Rs 2500 immediately."
+        ]
+      }
+    ],
+    "summary": "We found 3 warning signs, including patterns strongly associated with payment scams. Do not act on this message until you have verified it independently.",
+    "nextSteps": [
+      "Do not send money, enter your PIN, scan the QR code, or approve any collect request from this message.",
+      "If you already shared details or sent money, call your bank immediately using the number on your card or their official website, and ask them to block the transaction.",
+      "Report the message to your national cybercrime reporting service (see Safety & Reporting below)."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "urgency-05",
+    "riskLevel": "high_risk",
+    "signalIds": [
+      "legal-threat",
+      "secrecy"
+    ],
+    "signalDetails": [
+      {
+        "id": "legal-threat",
+        "category": "urgency",
+        "severity": "high",
+        "title": "Threatens arrest or legal action",
+        "explanation": "Police, courts, and tax authorities do not demand payment over messages or calls, and there is no such thing as a \"digital arrest\". Fear is used to stop you from thinking clearly.",
+        "evidence": [
+          "A FIR has been registered against you for money laund…"
+        ]
+      },
+      {
+        "id": "secrecy",
+        "category": "pattern",
+        "severity": "medium",
+        "title": "Asks you to keep the conversation secret",
+        "explanation": "Being told not to tell family or your bank, or to stay on the call, is a pressure tactic designed to stop someone from warning you.",
+        "evidence": [
+          "…t you for money laundering. Stay on the call and do not tell anyone.",
+          "…ering. Stay on the call and do not tell anyone."
+        ]
+      }
+    ],
+    "summary": "We found 2 warning signs, including patterns strongly associated with payment scams. Do not act on this message until you have verified it independently.",
+    "nextSteps": [
+      "End the conversation. Talk to someone you trust before doing anything — real authorities will not object.",
+      "If you already shared details or sent money, call your bank immediately using the number on your card or their official website, and ask them to block the transaction.",
+      "Report the message to your national cybercrime reporting service (see Safety & Reporting below)."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "prize-fee-01",
+    "riskLevel": "suspicious",
+    "signalIds": [
+      "payment-demand",
+      "too-good"
+    ],
+    "signalDetails": [
+      {
+        "id": "payment-demand",
+        "category": "payment",
+        "severity": "medium",
+        "title": "Requests a payment, fee, or approval",
+        "explanation": "Unexpected requests to pay a fee, deposit, or \"release\" charge are a hallmark of prize, job, delivery, and loan scams. Verify any request for money independently.",
+        "evidence": [
+          "…kh in the National Lottery. Pay Rs 999 processing fee to claim your prize.",
+          "…ational Lottery. Pay Rs 999 processing fee to claim your prize."
+        ]
+      },
+      {
+        "id": "too-good",
+        "category": "pattern",
+        "severity": "medium",
+        "title": "Offers a prize, refund, or income that seems too good",
+        "explanation": "Unexpected winnings, cashback, refunds, or easy-income offers are used to lower your guard before asking for a fee or your details.",
+        "evidence": [
+          "Congratulations! You have won Rs 10 lakh in the National…",
+          "…Rs 10 lakh in the National Lottery. Pay Rs 999 processing fee…",
+          "…ay Rs 999 processing fee to claim your prize."
+        ]
+      }
+    ],
+    "summary": "We found 2 warning signs that are common in scam messages. This is not proof of fraud, but the message deserves caution and independent verification.",
+    "nextSteps": [
+      "Do not send money, enter your PIN, scan the QR code, or approve any collect request from this message.",
+      "Pause before responding. Contact the organisation through a phone number or website you find independently."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "prize-fee-02",
+    "riskLevel": "suspicious",
+    "signalIds": [
+      "too-good",
+      "callback-number"
+    ],
+    "signalDetails": [
+      {
+        "id": "too-good",
+        "category": "pattern",
+        "severity": "medium",
+        "title": "Offers a prize, refund, or income that seems too good",
+        "explanation": "Unexpected winnings, cashback, refunds, or easy-income offers are used to lower your guard before asking for a fee or your details.",
+        "evidence": [
+          "Work from home opportunity! Earn Rs 5000 p…",
+          "Work from home opportunity! Earn Rs 5000 per day by liking YouTube videos. N…"
+        ]
+      },
+      {
+        "id": "callback-number",
+        "category": "impersonation",
+        "severity": "low",
+        "title": "Asks you to call or message an unverified number",
+        "explanation": "Numbers inside a suspicious message may connect you directly to the scammer. Use the number printed on your card or the official website instead.",
+        "evidence": [
+          "…deos. No experience needed. WhatsApp 9********0."
+        ]
+      }
+    ],
+    "summary": "We found 2 warning signs that are common in scam messages. This is not proof of fraud, but the message deserves caution and independent verification.",
+    "nextSteps": [
+      "Pause before responding. Contact the organisation through a phone number or website you find independently."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "prize-fee-03",
+    "riskLevel": "suspicious",
+    "signalIds": [
+      "payment-demand"
+    ],
+    "signalDetails": [
+      {
+        "id": "payment-demand",
+        "category": "payment",
+        "severity": "medium",
+        "title": "Requests a payment, fee, or approval",
+        "explanation": "Unexpected requests to pay a fee, deposit, or \"release\" charge are a hallmark of prize, job, delivery, and loan scams. Verify any request for money independently.",
+        "evidence": [
+          "…nd of Rs 15000 is approved. Pay the release charge of Rs 500 to receive the refund i…",
+          "…1***0 is approved. Pay the release charge of Rs 500 to receive the re…"
+        ]
+      }
+    ],
+    "summary": "We found 1 warning sign that are common in scam messages. This is not proof of fraud, but the message deserves caution and independent verification.",
+    "nextSteps": [
+      "Do not send money, enter your PIN, scan the QR code, or approve any collect request from this message.",
+      "Pause before responding. Contact the organisation through a phone number or website you find independently."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "prize-fee-04",
+    "riskLevel": "high_risk",
+    "signalIds": [
+      "urgency",
+      "payment-demand",
+      "impersonation"
+    ],
+    "signalDetails": [
+      {
+        "id": "urgency",
+        "category": "urgency",
+        "severity": "medium",
+        "title": "Creates pressure to act immediately",
+        "explanation": "Scammers rush you so you act before verifying. A genuine organisation will give you time to check through official channels.",
+        "evidence": [
+          "…ee of Rs 2000 to release it immediately."
+        ]
+      },
+      {
+        "id": "payment-demand",
+        "category": "payment",
+        "severity": "medium",
+        "title": "Requests a payment, fee, or approval",
+        "explanation": "Unexpected requests to pay a fee, deposit, or \"release\" charge are a hallmark of prize, job, delivery, and loan scams. Verify any request for money independently.",
+        "evidence": [
+          "…m FedEx is held at customs. Pay clearance fee of Rs 2000 to release it immediat…",
+          "…dEx is held at customs. Pay clearance fee of Rs 2000 to release it im…"
+        ]
+      },
+      {
+        "id": "impersonation",
+        "category": "impersonation",
+        "severity": "medium",
+        "title": "Claims to be from a bank, payment app, or authority",
+        "explanation": "Anyone can put a bank, brand, or government name in a message. A claim of identity is not proof of identity — confirm it using contact details you find yourself.",
+        "evidence": [
+          "…r international parcel from FedEx is held at customs. Pay cle…",
+          "…arcel from FedEx is held at customs. Pay clearance fee of Rs 20…"
+        ]
+      }
+    ],
+    "summary": "We found 3 warning signs, including patterns strongly associated with payment scams. Do not act on this message until you have verified it independently.",
+    "nextSteps": [
+      "Do not send money, enter your PIN, scan the QR code, or approve any collect request from this message.",
+      "If you already shared details or sent money, call your bank immediately using the number on your card or their official website, and ask them to block the transaction.",
+      "Report the message to your national cybercrime reporting service (see Safety & Reporting below)."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "legit-01",
+    "riskLevel": "no_strong_signs",
+    "signalIds": [],
+    "signalDetails": [],
+    "summary": "We did not find strong warning signs. This does not mean the message is safe — some scams contain no obvious indicators. Verify any request for money or information through official channels.",
+    "nextSteps": [
+      "If the message asks for money or personal information, still confirm it through official channels before acting."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "legit-02",
+    "riskLevel": "suspicious",
+    "signalIds": [
+      "impersonation"
+    ],
+    "signalDetails": [
+      {
+        "id": "impersonation",
+        "category": "impersonation",
+        "severity": "medium",
+        "title": "Claims to be from a bank, payment app, or authority",
+        "explanation": "Anyone can put a bank, brand, or government name in a message. A claim of identity is not proof of identity — confirm it using contact details you find yourself.",
+        "evidence": [
+          "…has been debited from your HDFC account for Home Loan A/c 1…"
+        ]
+      }
+    ],
+    "summary": "We found 1 warning sign that are common in scam messages. This is not proof of fraud, but the message deserves caution and independent verification.",
+    "nextSteps": [
+      "Pause before responding. Contact the organisation through a phone number or website you find independently."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "legit-03",
+    "riskLevel": "suspicious",
+    "signalIds": [
+      "impersonation"
+    ],
+    "signalDetails": [
+      {
+        "id": "impersonation",
+        "category": "impersonation",
+        "severity": "medium",
+        "title": "Claims to be from a bank, payment app, or authority",
+        "explanation": "Anyone can put a bank, brand, or government name in a message. A claim of identity is not proof of identity — confirm it using contact details you find yourself.",
+        "evidence": [
+          "…65,000.00 credited to your SBI account ending 4**1. Availa…"
+        ]
+      }
+    ],
+    "summary": "We found 1 warning sign that are common in scam messages. This is not proof of fraud, but the message deserves caution and independent verification.",
+    "nextSteps": [
+      "Pause before responding. Contact the organisation through a phone number or website you find independently."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "legit-04",
+    "riskLevel": "no_strong_signs",
+    "signalIds": [],
+    "signalDetails": [],
+    "summary": "We did not find strong warning signs. This does not mean the message is safe — some scams contain no obvious indicators. Verify any request for money or information through official channels.",
+    "nextSteps": [
+      "If the message asks for money or personal information, still confirm it through official channels before acting."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "legit-05",
+    "riskLevel": "no_strong_signs",
+    "signalIds": [],
+    "signalDetails": [],
+    "summary": "We did not find strong warning signs. This does not mean the message is safe — some scams contain no obvious indicators. Verify any request for money or information through official channels.",
+    "nextSteps": [
+      "If the message asks for money or personal information, still confirm it through official channels before acting."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "negation-01",
+    "riskLevel": "suspicious",
+    "signalIds": [
+      "urgency"
+    ],
+    "signalDetails": [
+      {
+        "id": "urgency",
+        "category": "urgency",
+        "severity": "medium",
+        "title": "Creates pressure to act immediately",
+        "explanation": "Scammers rush you so you act before verifying. A genuine organisation will give you time to check through official channels.",
+        "evidence": [
+          "…re this OTP with anyone. It expires in 5 minutes. - ICICI Bank"
+        ]
+      }
+    ],
+    "summary": "We found 1 warning sign that are common in scam messages. This is not proof of fraud, but the message deserves caution and independent verification.",
+    "nextSteps": [
+      "Pause before responding. Contact the organisation through a phone number or website you find independently."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "negation-02",
+    "riskLevel": "no_strong_signs",
+    "signalIds": [],
+    "signalDetails": [],
+    "summary": "We did not find strong warning signs. This does not mean the message is safe — some scams contain no obvious indicators. Verify any request for money or information through official channels.",
+    "nextSteps": [
+      "If the message asks for money or personal information, still confirm it through official channels before acting."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "negation-03",
+    "riskLevel": "no_strong_signs",
+    "signalIds": [],
+    "signalDetails": [],
+    "summary": "We did not find strong warning signs. This does not mean the message is safe — some scams contain no obvious indicators. Verify any request for money or information through official channels.",
+    "nextSteps": [
+      "If the message asks for money or personal information, still confirm it through official channels before acting."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "negation-04",
+    "riskLevel": "suspicious",
+    "signalIds": [
+      "urgency"
+    ],
+    "signalDetails": [
+      {
+        "id": "urgency",
+        "category": "urgency",
+        "severity": "medium",
+        "title": "Creates pressure to act immediately",
+        "explanation": "Scammers rush you so you act before verifying. A genuine organisation will give you time to check through official channels.",
+        "evidence": [
+          "…f someone does, report them immediately."
+        ]
+      }
+    ],
+    "summary": "We found 1 warning sign that are common in scam messages. This is not proof of fraud, but the message deserves caution and independent verification.",
+    "nextSteps": [
+      "Pause before responding. Contact the organisation through a phone number or website you find independently."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "ambiguous-01",
+    "riskLevel": "no_strong_signs",
+    "signalIds": [],
+    "signalDetails": [],
+    "summary": "We did not find strong warning signs. This does not mean the message is safe — some scams contain no obvious indicators. Verify any request for money or information through official channels.",
+    "nextSteps": [
+      "If the message asks for money or personal information, still confirm it through official channels before acting."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "ambiguous-02",
+    "riskLevel": "no_strong_signs",
+    "signalIds": [
+      "link-present"
+    ],
+    "signalDetails": [
+      {
+        "id": "link-present",
+        "category": "link",
+        "severity": "low",
+        "title": "Contains a link",
+        "explanation": "No specific problem was found with this link, but links in unexpected payment messages should not be trusted. Type the official address yourself instead.",
+        "evidence": [
+          "https://example.com/track/12345"
+        ]
+      }
+    ],
+    "summary": "We did not find strong warning signs, only a minor indicator. This does not mean the message is safe — verify any request for money or information through official channels.",
+    "nextSteps": [
+      "Do not open the link. If you need to check your account, type the official website address yourself or use the official app.",
+      "If the message asks for money or personal information, still confirm it through official channels before acting."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "ambiguous-03",
+    "riskLevel": "no_strong_signs",
+    "signalIds": [],
+    "signalDetails": [],
+    "summary": "We did not find strong warning signs. This does not mean the message is safe — some scams contain no obvious indicators. Verify any request for money or information through official channels.",
+    "nextSteps": [
+      "If the message asks for money or personal information, still confirm it through official channels before acting."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "edge-unicode-01",
+    "riskLevel": "high_risk",
+    "signalIds": [
+      "credential-request"
+    ],
+    "signalDetails": [
+      {
+        "id": "credential-request",
+        "category": "credentials",
+        "severity": "high",
+        "title": "Asks you to share an OTP, PIN, or password",
+        "explanation": "Banks, payment apps, and government agencies never ask you to share an OTP, UPI PIN, CVV, or password. Anyone who has these can move money out of your account.",
+        "evidence": [
+          "Please share your OTP to complete your account ve…"
+        ]
+      }
+    ],
+    "summary": "We found 1 warning sign, including patterns strongly associated with payment scams. Do not act on this message until you have verified it independently.",
+    "nextSteps": [
+      "Do not share any OTP, UPI PIN, CVV, or password — with anyone, for any reason.",
+      "If you already shared details or sent money, call your bank immediately using the number on your card or their official website, and ask them to block the transaction.",
+      "Report the message to your national cybercrime reporting service (see Safety & Reporting below)."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "edge-unicode-02",
+    "riskLevel": "suspicious",
+    "signalIds": [
+      "urgency"
+    ],
+    "signalDetails": [
+      {
+        "id": "urgency",
+        "category": "urgency",
+        "severity": "medium",
+        "title": "Creates pressure to act immediately",
+        "explanation": "Scammers rush you so you act before verifying. A genuine organisation will give you time to check through official channels.",
+        "evidence": [
+          "URGENTLY update your account details…"
+        ]
+      }
+    ],
+    "summary": "We found 1 warning sign that are common in scam messages. This is not proof of fraud, but the message deserves caution and independent verification.",
+    "nextSteps": [
+      "Pause before responding. Contact the organisation through a phone number or website you find independently."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "edge-whitespace-01",
+    "riskLevel": "high_risk",
+    "signalIds": [
+      "credential-request",
+      "urgency"
+    ],
+    "signalDetails": [
+      {
+        "id": "credential-request",
+        "category": "credentials",
+        "severity": "high",
+        "title": "Asks you to share an OTP, PIN, or password",
+        "explanation": "Banks, payment apps, and government agencies never ask you to share an OTP, UPI PIN, CVV, or password. Anyone who has these can move money out of your account.",
+        "evidence": [
+          "Please share your OTP immediately to verif…"
+        ]
+      },
+      {
+        "id": "urgency",
+        "category": "urgency",
+        "severity": "medium",
+        "title": "Creates pressure to act immediately",
+        "explanation": "Scammers rush you so you act before verifying. A genuine organisation will give you time to check through official channels.",
+        "evidence": [
+          "…e share your OTP immediately to verify your acco…"
+        ]
+      }
+    ],
+    "summary": "We found 2 warning signs, including patterns strongly associated with payment scams. Do not act on this message until you have verified it independently.",
+    "nextSteps": [
+      "Do not share any OTP, UPI PIN, CVV, or password — with anyone, for any reason.",
+      "If you already shared details or sent money, call your bank immediately using the number on your card or their official website, and ask them to block the transaction.",
+      "Report the message to your national cybercrime reporting service (see Safety & Reporting below)."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "edge-empty-01",
+    "riskLevel": "no_strong_signs",
+    "signalIds": [],
+    "signalDetails": [],
+    "summary": "We did not find strong warning signs. This does not mean the message is safe — some scams contain no obvious indicators. Verify any request for money or information through official channels.",
+    "nextSteps": [
+      "If the message asks for money or personal information, still confirm it through official channels before acting."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "edge-short-01",
+    "riskLevel": "no_strong_signs",
+    "signalIds": [],
+    "signalDetails": [],
+    "summary": "We did not find strong warning signs. This does not mean the message is safe — some scams contain no obvious indicators. Verify any request for money or information through official channels.",
+    "nextSteps": [
+      "If the message asks for money or personal information, still confirm it through official channels before acting."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "edge-emoji-01",
+    "riskLevel": "suspicious",
+    "signalIds": [
+      "too-good"
+    ],
+    "signalDetails": [
+      {
+        "id": "too-good",
+        "category": "pattern",
+        "severity": "medium",
+        "title": "Offers a prize, refund, or income that seems too good",
+        "explanation": "Unexpected winnings, cashback, refunds, or easy-income offers are used to lower your guard before asking for a fee or your details.",
+        "evidence": [
+          "🎉 Congratulations! 🎊 You have won 💰💰💰! Claim your reward n…",
+          "…ns! 🎊 You have won 💰💰💰! Claim your reward now!"
+        ]
+      }
+    ],
+    "summary": "We found 1 warning sign that are common in scam messages. This is not proof of fraud, but the message deserves caution and independent verification.",
+    "nextSteps": [
+      "Pause before responding. Contact the organisation through a phone number or website you find independently."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "remote-access-01",
+    "riskLevel": "high_risk",
+    "signalIds": [
+      "remote-access"
+    ],
+    "signalDetails": [
+      {
+        "id": "remote-access",
+        "category": "pattern",
+        "severity": "high",
+        "title": "Asks you to install a screen-sharing or remote-access app",
+        "explanation": "Remote-access apps let another person see and control your phone, including your banking apps and OTPs. Legitimate support teams do not need this to resolve payment issues.",
+        "evidence": [
+          "…nking issue, please install AnyDesk from the Play Store and sha…"
+        ]
+      }
+    ],
+    "summary": "We found 1 warning sign, including patterns strongly associated with payment scams. Do not act on this message until you have verified it independently.",
+    "nextSteps": [
+      "Do not install any app the sender recommends. If you already did, uninstall it and change your banking passwords from a different device.",
+      "If you already shared details or sent money, call your bank immediately using the number on your card or their official website, and ask them to block the transaction.",
+      "Report the message to your national cybercrime reporting service (see Safety & Reporting below)."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "callback-01",
+    "riskLevel": "high_risk",
+    "signalIds": [
+      "urgency",
+      "payment-demand",
+      "impersonation",
+      "callback-number"
+    ],
+    "signalDetails": [
+      {
+        "id": "urgency",
+        "category": "urgency",
+        "severity": "medium",
+        "title": "Creates pressure to act immediately",
+        "explanation": "Scammers rush you so you act before verifying. A genuine organisation will give you time to check through official channels.",
+        "evidence": [
+          "…stoms. Call +91 9***5 4***0 immediately to pay the release fee and…"
+        ]
+      },
+      {
+        "id": "payment-demand",
+        "category": "payment",
+        "severity": "medium",
+        "title": "Requests a payment, fee, or approval",
+        "explanation": "Unexpected requests to pay a fee, deposit, or \"release\" charge are a hallmark of prize, job, delivery, and loan scams. Verify any request for money independently.",
+        "evidence": [
+          "…9***5 4***0 immediately to pay the release fee and avoid legal action.",
+          "…3**0 immediately to pay the release fee and avoid legal action."
+        ]
+      },
+      {
+        "id": "impersonation",
+        "category": "impersonation",
+        "severity": "medium",
+        "title": "Claims to be from a bank, payment app, or authority",
+        "explanation": "Anyone can put a bank, brand, or government name in a message. A claim of identity is not proof of identity — confirm it using contact details you find yourself.",
+        "evidence": [
+          "Your parcel is held at customs. Call +91 9***5 4***0 immed…"
+        ]
+      },
+      {
+        "id": "callback-number",
+        "category": "impersonation",
+        "severity": "low",
+        "title": "Asks you to call or message an unverified number",
+        "explanation": "Numbers inside a suspicious message may connect you directly to the scammer. Use the number printed on your card or the official website instead.",
+        "evidence": [
+          "…parcel is held at customs. Call +91 9***5 4***0 immediately to pay the rele…"
+        ]
+      }
+    ],
+    "summary": "We found 4 warning signs, including patterns strongly associated with payment scams. Do not act on this message until you have verified it independently.",
+    "nextSteps": [
+      "Do not send money, enter your PIN, scan the QR code, or approve any collect request from this message.",
+      "If you already shared details or sent money, call your bank immediately using the number on your card or their official website, and ask them to block the transaction.",
+      "Report the message to your national cybercrime reporting service (see Safety & Reporting below)."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  },
+  {
+    "id": "legit-benign-01",
+    "riskLevel": "no_strong_signs",
+    "signalIds": [],
+    "signalDetails": [],
+    "summary": "We did not find strong warning signs. This does not mean the message is safe — some scams contain no obvious indicators. Verify any request for money or information through official channels.",
+    "nextSteps": [
+      "If the message asks for money or personal information, still confirm it through official channels before acting."
+    ],
+    "verification": [
+      "Find the organisation’s contact details yourself — the back of your card, your official banking app, or a website address you type manually.",
+      "Never use phone numbers, links, or QR codes provided inside the suspicious message.",
+      "Check the transaction or request inside your official bank or UPI app, not through a link.",
+      "Remember: receiving money never requires your PIN, an OTP, or scanning a QR code."
+    ]
+  }
+]
